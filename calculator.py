@@ -1,14 +1,14 @@
-n1 = float(input("Enter number: "))
-op = input("Enter operator: ")
-n2 = float(input("Enter number: "))
+x = float(input("x: "))
+op = input("Operator: ")
+y = float(input("y: "))
 
 if op == "+":
-    print(n1 + n2)
+    print(x + y)
 elif op == "-":
-    print(n1 - n2)
+    print(x - y)
 elif op == "*":
-    print(n1 * n2)
+    print(x * y)
 elif op == "/":
-    print(n1 / n2)
+    print(x / y)
 else:
-    print("Invalid operator")
+    print("Error")
